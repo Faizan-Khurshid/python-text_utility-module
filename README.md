@@ -20,3 +20,67 @@
 <div>text(str): The text/paragraph/string</div>
 <p>Return(str): a text with all white spaces(more than one whitespace) being filtered out</p><br>
 
+## Remove References
+<a id="remove_refs"></a>
+<p>this function removes all the references inside the given text</p>
+<p>arguments: this function takes one required positional arguments</p>
+<div>text(str): The text/paragraph/string</div>
+<p>Return(str): a text with all refernces being filtered out</p><br>
+
+## Remove Punctuation
+<a id="remove_punct"></a>
+<p>this function removes all the punctuation inside the given text</p>
+<p>arguments: this function takes one required positional arguments</p>
+<div>text(str): The text/paragraph/string</div>
+<p>Return(str): a text with all punctutation being filtered out</p><br>
+
+## Bag Of Words
+<a id="bag_of_words"></a>
+<p>this function creates a dictionary of all the words in the given text with the count of no of times they occur in text</p>
+<p>arguments: this function takes one required positional arguments</p>
+<div>text(str): The text/paragraph/string </div>
+<p>Return(dict): a dictionary containg all the words as key and the no of times they appear as key</p><br>
+
+## Find All Substring
+<a id="find_all_substr"></a>
+<p>this function finds the position of the all the occurences of the given substring</p>
+<p>arguments: this function takes two required positional arguments</p>
+<div>text(str): The text/paragraph/string to be searched upon</div>
+<div>substring(str): The substring to be found</div>
+<p>Return(list): a list containing all the positions of occurences of the givent substring</p><br>
+
+## Find Best Match
+<a id="find_best_match"></a>
+<p>this function finds the best match of the searched string/phrase. It can be used for providing suggestions while searching or it can be used as search algoritm for a given text</p>
+<p>arguments: this function takes two required positional arguments</p>
+<div>text(str): The text/paragraph/string to be searched upon</div>
+<div>string_to_search(str): The string to be searched</div>
+<p>Returns(dict): a dictionary containg all the words, their positions, how much they match with the searched string and count of how many matching words/phrases are there</p><br>
+
+## Count Sentences
+<a id="count_sent"></a>
+<p>this function counts the number of sentences in the given text</p>
+<p>arguments: this function takes one required positional arguments</p>
+<div>text(str): The text/paragraph/string</div>
+<p>Return(int): Number of sentences</p>
+
+## Count Words
+<a id="count_words"></a>
+<p>this function counts the number of words in the given text</p>
+<p>arguments: this function takes one required positional arguments</p>
+<div>text(str): The text/paragraph/string</div>
+<p>Return(int): Number of words</p>
+
+## Count Lines
+<a id="count_lines"></a>
+<p>this function counts the number of lines in the given text</p>
+<p>arguments: this function takes one required positional arguments</p>
+<div>text(str): The text/paragraph/string</div>
+<p>Return(int): Number of lines</p>
+
+## Count Tabs
+<a id="count_tabs"></a>
+<p>this function counts the number of tabs in the given text</p>
+<p>arguments: this function takes one required positional arguments</p>
+<div>text(str): The text/paragraph/string</div>
+<p>Return(int): Number of tabs</p>
